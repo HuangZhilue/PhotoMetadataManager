@@ -1,5 +1,7 @@
 # PhotoMetadataManager (图片无损隐私清理工具)
 
+[![Designed & Programmed by Gemini](https://img.shields.io/badge/Designed%20%26%20Programmed%20by-Gemini%20AI-blue?logo=google-gemini&logoColor=white)](https://gemini.google.com/)
+
 这是一个基于 .NET 10 和 ExifTool 开发的**图片隐私属性无损清理工具**。
 
 它最大的特点是**绝对无损**：在抹除 GPS、版权、作者等敏感信息时，只在二进制字节流层面进行精准擦除，**绝对不会对照片像素进行二次压缩（不伤画质），并且能完好保留照片自带的星级、相机私有数据和修改日期**。
